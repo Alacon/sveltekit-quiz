@@ -25,7 +25,7 @@
 			const questions = await x.json();
 			smallQuestions.set(questions);
 		});
-		addNew(question, answer);
+		
 		question = '';
 		answer = '';
 	};
