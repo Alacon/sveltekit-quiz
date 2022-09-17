@@ -34,8 +34,8 @@
 <div class="p-5 flex flex-col gap-y-5">
 	<h2>Add new</h2>
 	<div class="bg-slate-100 rounded-sm p-3 flex flex-col justify-center gap-y-3 py-10">
-		<input type="text" bind:value={question} placeholder="Question" />
-		<input type="text" bind:value={answer} placeholder="Answer" />
+		<input class="p-3" type="text" bind:value={question} placeholder="Question" />
+		<input class="p-3" type="text" bind:value={answer} placeholder="Answer" />
 		<button
 			class="bg-green-400 text-black py-3 px-8 text-lg rounded-lg font-semibold shadow-2xl"
 			on:click={add}>Add</button

@@ -16,18 +16,15 @@
 			return;
 		}
 		state = State.Corerct;
+		answer = '';
+		fetch('/question', {
+			method: 'POST',
+			body: JSON.stringify({ ...$currentQuestion, answered: true, correct: true })
+		}).then(async (x) => {
+			const questions = await x.json();
+			smallQuestions.set(questions);
+		});
 		setTimeout(() => {
-			smallQuestions.update((x) => {
-				return x.map((y) => {
-					if (y.id == $currentQuestion?.id) {
-						y = { ...y, answer, answered: true };
-					}
-					return y;
-				});
-			});
-			console.log($currentQuestion);
-
-			answer = '';
 			state = State.Idle;
 		}, 2000);
 	};
@@ -51,6 +48,7 @@
 	{/if}
 	<h1 class="text-3xl px-5 text-center">
 		{$currentQuestion?.question}
+		{$currentQuestion?.answered}
 	</h1>
 
 	<input
