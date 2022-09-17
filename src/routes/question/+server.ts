@@ -9,20 +9,6 @@ const questions = [
         answer: '2007',
         answered: false,
         correct: undefined
-    },
-    {
-        id: uid(),
-        question: 'How many points did Foppa have 2002/2003',
-        answer: 106,
-        answered: false,
-        correct: undefined
-    },
-    {
-        id: uid(),
-        question: 'How many points did Näslund have 2002/2003',
-        answer: 104,
-        answered: false,
-        correct: undefined
     }
 ]
 
