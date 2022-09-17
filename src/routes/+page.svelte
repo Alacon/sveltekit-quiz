@@ -62,7 +62,6 @@
 		{/if}
 		<h1 class="text-3xl px-5 text-center">
 			{$currentQuestion?.question}
-			{$currentQuestion?.answered}
 		</h1>
 
 		<input
