@@ -1771,6 +1771,11 @@ shebang-regex@^3.0.0:
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
+short-unique-id@^4.4.4:
+  version "4.4.4"
+  resolved "https://registry.yarnpkg.com/short-unique-id/-/short-unique-id-4.4.4.tgz#a45df68303bbd2dbb5785ed7708e891809c9cb7a"
+  integrity sha512-oLF1NCmtbiTWl2SqdXZQbo5KM1b7axdp0RgQLq8qCBBLoq+o3A5wmLrNM6bZIh54/a8BJ3l69kTXuxwZ+XCYuw==
+
 signal-exit@^3.0.0:
   version "3.0.7"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
@@ -1870,6 +1875,11 @@ svelte-check@^2.7.1:
     sade "^1.7.4"
     svelte-preprocess "^4.0.0"
     typescript "*"
+
+svelte-confetti-explosion@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/svelte-confetti-explosion/-/svelte-confetti-explosion-0.4.0.tgz#60cec865f533f8ad251245731bf68aa9fb4986e2"
+  integrity sha512-EifYXjcNzcfrQ4gFLsjxEe5j5aGBZNnEJm+qA025LuZp7bD4YbCLNExNYvvenre3UnwVWGv3E8cTzjO1W01Ckw==
 
 svelte-hmr@^0.14.12:
   version "0.14.12"

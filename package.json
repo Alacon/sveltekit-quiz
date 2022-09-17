@@ -32,6 +32,8 @@
 	"dependencies": {
 		"autoprefixer": "^10.4.9",
 		"postcss": "^8.4.16",
+		"short-unique-id": "^4.4.4",
+		"svelte-confetti-explosion": "^0.4.0",
 		"tailwindcss": "^3.1.8"
 	}
 }
